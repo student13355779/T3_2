@@ -46,7 +46,7 @@ class Wichislyator:
             print("масимальное: ", _max(data))
             print("минимальное: ", _min(data))
             print("сумма: ", _sum(data))
-            print(("произведение: ", "Слишком большое число"))
+            print("произведение: ", "Слишком большое число")
         elif _mult(data) <= -1 * 2e500:
             print("масимальное: ", _max(data))
             print("минимальное: ", _min(data))
